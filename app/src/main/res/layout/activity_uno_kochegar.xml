@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ru.h1n.unokochegar.UnoKochegarActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="20dp"
+    android:screenOrientation="portrait"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayoutKotel1"
+        android:layout_width="0dp"
+        android:layout_height="27dp"
+        android:background="?android:attr/statusBarColor"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView1Kotel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="ВК №1"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <TextView
+            android:id="@+id/textView1kotelDo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="15.5"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView1kotelPosle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="13.3"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="24sp" />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:button="@android:color/holo_red_dark"
+            android:textColor="@android:color/holo_red_dark"
+            android:textColorHighlight="@android:color/holo_red_dark"
+            android:textColorHint="@android:color/holo_red_dark"
+            android:textColorLink="@android:color/holo_red_dark" />
+    </LinearLayout>
+
+    //*******************котел 2
+
+
+    <LinearLayout
+        android:id="@+id/linearLayoutNameKotel2"
+        android:layout_width="0dp"
+        android:layout_height="27dp"
+        android:background="?android:attr/statusBarColor"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layot1Kotel">
+
+        <TextView
+            android:id="@+id/textView1Kotel2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="ВК №2"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <TextView
+            android:id="@+id/textView2kotelDo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15.5"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView2kotelPosle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13.3"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="24sp" />
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColorHighlight="@android:color/holo_red_dark"
+            android:textColorHint="@android:color/holo_red_dark"
+            android:textColorLink="@android:color/holo_red_dark" />
+    </LinearLayout>
+
+    //**********************
+    //*******************котел3
+
+
+    <LinearLayout
+        android:id="@+id/linearLayoutNameKotel3"
+        android:layout_width="0dp"
+        android:layout_height="27dp"
+        android:background="?android:attr/statusBarColor"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layot2Kotel">
+
+        <TextView
+            android:id="@+id/textView1Kotel3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="ВК №3"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <TextView
+            android:id="@+id/textView3kotelDo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15.5"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView3kotelPosle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13.3"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="24sp" />
+
+        <Switch
+            android:id="@+id/switch3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColorHighlight="@android:color/holo_red_dark"
+            android:textColorHint="@android:color/holo_red_dark"
+            android:textColorLink="@android:color/holo_red_dark" />
+
+    </LinearLayout>
+
+    //**********************
+    //*******************котоел 4
+
+
+    <LinearLayout
+        android:id="@+id/linearLayoutNameKotel4"
+        android:layout_width="0dp"
+        android:layout_height="27dp"
+        android:background="?android:attr/statusBarColor"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layot3Kotel">
+
+        <TextView
+            android:id="@+id/textView1Kotel4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="ВК №4"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <TextView
+            android:id="@+id/textView4kotelDo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15.5"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView4kotelPosle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13.3"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="24sp" />
+
+        <Switch
+            android:id="@+id/switch4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColorHighlight="@android:color/holo_red_dark"
+            android:textColorHint="@android:color/holo_red_dark"
+            android:textColorLink="@android:color/holo_red_dark" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layot4Kotel"
+        android:layout_width="0dp"
+        android:layout_height="73dp"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutNameKotel4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ru.h1n.unokochegar.CustomNumberPicker
+                android:id="@+id/numberPicker24kotel"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:animateLayoutChanges="true"
+                android:scaleX="4"
+                android:scaleY="4.2"
+                android:solidColor="?android:attr/colorBackgroundCacheHint"
+                app:layout_constraintLeft_toRightOf="@+id/textView3"
+                app:layout_constraintTop_toBottomOf="@+id/textView1Kotel" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ru.h1n.unokochegar.CustomNumberPicker
+                android:id="@+id/numberPicker4kotel"
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:animateLayoutChanges="true"
+                android:scaleX="4"
+                android:scaleY="4.2"
+                android:solidColor="?android:attr/colorBackgroundCacheHint"
+                app:layout_constraintTop_toBottomOf="@+id/textView1Kotel" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layot1Kotel"
+        android:layout_width="0dp"
+        android:layout_height="73dp"
+        android:orientation="horizontal"
+        app:layout_constraintHorizontal_bias="0.28"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutKotel1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ru.h1n.unokochegar.CustomNumberPicker
+                android:id="@+id/numberPicker"
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:animateLayoutChanges="true"
+                android:measureWithLargestChild="true"
+                android:nestedScrollingEnabled="false"
+                android:scaleX="4"
+                android:scaleY="4.2"
+                android:solidColor="?android:attr/colorBackgroundCacheHint"
+                app:layout_constraintTop_toBottomOf="@+id/textView1Kotel" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <ru.h1n.unokochegar.CustomNumberPicker
+                android:id="@+id/numberPicker2"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:animateLayoutChanges="true"
+                android:scaleX="4"
+                android:scaleY="4.2"
+                android:solidColor="?android:attr/colorBackgroundCacheHint"
+                app:layout_constraintLeft_toRightOf="@+id/textView3"
+                app:layout_constraintTop_toBottomOf="@+id/textView1Kotel" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layot3Kotel"
+        android:layout_width="0dp"
+        android:layout_height="73dp"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutNameKotel3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ru.h1n.unokochegar.CustomNumberPicker
+                android:id="@+id/numberPicker23kotel"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:animateLayoutChanges="true"
+                android:scaleX="4"
+                android:scaleY="4.2"
+                android:solidColor="?android:attr/colorBackgroundCacheHint"
+                app:layout_constraintLeft_toRightOf="@+id/textView3"
+                app:layout_constraintTop_toBottomOf="@+id/textView1Kotel" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ru.h1n.unokochegar.CustomNumberPicker
+                android:id="@+id/numberPicker33kotel"
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:animateLayoutChanges="true"
+                android:scaleX="4"
+                android:scaleY="4.2"
+                android:solidColor="?android:attr/colorBackgroundCacheHint"
+                app:layout_constraintTop_toBottomOf="@+id/textView1Kotel" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layot2Kotel"
+        android:layout_width="0dp"
+        android:layout_height="73dp"
+        android:orientation="horizontal"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutNameKotel2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ru.h1n.unokochegar.CustomNumberPicker
+                android:id="@+id/numberPicker2kotel"
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:animateLayoutChanges="true"
+                android:scaleX="4"
+                android:scaleY="4.2"
+                android:solidColor="?android:attr/colorBackgroundCacheHint"
+                app:layout_constraintTop_toBottomOf="@+id/textView1Kotel" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ru.h1n.unokochegar.CustomNumberPicker
+                android:id="@+id/numberPicker22kotel"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:animateLayoutChanges="true"
+                android:scaleX="4"
+                android:scaleY="4.2"
+                android:solidColor="?android:attr/colorBackgroundCacheHint"
+                app:layout_constraintLeft_toRightOf="@+id/textView3"
+                app:layout_constraintTop_toBottomOf="@+id/textView1Kotel" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/dataTimeLastBase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="дата последнего изменения"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/remarkDataTimeLastBase" />
+
+    <TextView
+        android:id="@+id/remarkDataTimeLastBase"
+        android:layout_width="160dp"
+        android:layout_height="21dp"
+        android:layout_marginBottom="4dp"
+
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="ВНИМАНИЕ"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.026"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="Сохранить"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="8dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="ВОССТАНОВИТЬ"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/button"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    //**********************
+
+</android.support.constraint.ConstraintLayout>

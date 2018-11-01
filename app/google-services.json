@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "517574669356",
+    "firebase_url": "https://unokochegar.firebaseio.com",
+    "project_id": "unokochegar",
+    "storage_bucket": "unokochegar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517574669356:android:388007e46742dd78",
+        "android_client_info": {
+          "package_name": "ru.h1n.unokochegar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517574669356-mt075k83b6oesvtilp90ahh9q1kiod7c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ru.h1n.unokochegar",
+            "certificate_hash": "48fb1be389dd6012332211c2c064df7e1bece9e1"
+          }
+        },
+        {
+          "client_id": "517574669356-5qevhn6vgkchir36chn1i63umepjoe2u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnQrNBA16kMDYb7YQeFlnjNt9DJKt81Sw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "517574669356-5qevhn6vgkchir36chn1i63umepjoe2u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
